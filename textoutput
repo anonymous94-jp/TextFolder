@@ -1,0 +1,468 @@
+------------------------------------
+Symbol: SANDUSDT
+Candles loaded: 2880
+Candidates by rule:
+  15m: 1
+  1h: 8
+  2h: 22
+  4h: 32
+=== RAW CANDIDATE DIAGNOSTICS ===
+Total raw candidates: 63
+--- Individual candidate windows ---
+#1 | rule=4h | window=2026-10-02T03:00:00.000Z -> 2026-10-02T07:00:00.000Z | confirm=2026-10-02T07:14:59.999Z | startClose=0.04474 | endClose=0.05423 | return=21.21% | overlapCount=30 | overlapRules=4h,2h,1h,15m
+#2 | rule=4h | window=2026-10-02T03:15:00.000Z -> 2026-10-02T07:15:00.000Z | confirm=2026-10-02T07:29:59.999Z | startClose=0.04482 | endClose=0.05601 | return=24.97% | overlapCount=32 | overlapRules=4h,2h,1h,15m
+#3 | rule=4h | window=2026-10-02T03:30:00.000Z -> 2026-10-02T07:30:00.000Z | confirm=2026-10-02T07:44:59.999Z | startClose=0.04466 | endClose=0.05704 | return=27.72% | overlapCount=33 | overlapRules=4h,2h,1h,15m
+#4 | rule=4h | window=2026-10-02T03:45:00.000Z -> 2026-10-02T07:45:00.000Z | confirm=2026-10-02T07:59:59.999Z | startClose=0.04463 | endClose=0.0589 | return=31.97% | overlapCount=34 | overlapRules=4h,2h,1h,15m
+#5 | rule=4h | window=2026-10-02T04:00:00.000Z -> 2026-10-02T08:00:00.000Z | confirm=2026-10-02T08:14:59.999Z | startClose=0.04456 | endClose=0.0578 | return=29.71% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#6 | rule=4h | window=2026-10-02T04:15:00.000Z -> 2026-10-02T08:15:00.000Z | confirm=2026-10-02T08:29:59.999Z | startClose=0.04522 | endClose=0.06105 | return=35.01% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#7 | rule=4h | window=2026-10-02T04:30:00.000Z -> 2026-10-02T08:30:00.000Z | confirm=2026-10-02T08:44:59.999Z | startClose=0.04524 | endClose=0.06148 | return=35.90% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#8 | rule=4h | window=2026-10-02T04:45:00.000Z -> 2026-10-02T08:45:00.000Z | confirm=2026-10-02T08:59:59.999Z | startClose=0.0461 | endClose=0.06056 | return=31.37% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#9 | rule=2h | window=2026-10-02T05:00:00.000Z -> 2026-10-02T07:00:00.000Z | confirm=2026-10-02T07:14:59.999Z | startClose=0.04623 | endClose=0.05423 | return=17.30% | overlapCount=30 | overlapRules=4h,2h,1h,15m
+#10 | rule=4h | window=2026-10-02T05:00:00.000Z -> 2026-10-02T09:00:00.000Z | confirm=2026-10-02T09:14:59.999Z | startClose=0.04623 | endClose=0.06231 | return=34.78% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#11 | rule=2h | window=2026-10-02T05:15:00.000Z -> 2026-10-02T07:15:00.000Z | confirm=2026-10-02T07:29:59.999Z | startClose=0.04621 | endClose=0.05601 | return=21.21% | overlapCount=32 | overlapRules=4h,2h,1h,15m
+#12 | rule=4h | window=2026-10-02T05:15:00.000Z -> 2026-10-02T09:15:00.000Z | confirm=2026-10-02T09:29:59.999Z | startClose=0.04621 | endClose=0.06226 | return=34.73% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#13 | rule=2h | window=2026-10-02T05:30:00.000Z -> 2026-10-02T07:30:00.000Z | confirm=2026-10-02T07:44:59.999Z | startClose=0.04637 | endClose=0.05704 | return=23.01% | overlapCount=33 | overlapRules=4h,2h,1h,15m
+#14 | rule=4h | window=2026-10-02T05:30:00.000Z -> 2026-10-02T09:30:00.000Z | confirm=2026-10-02T09:44:59.999Z | startClose=0.04637 | endClose=0.06142 | return=32.46% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#15 | rule=2h | window=2026-10-02T05:45:00.000Z -> 2026-10-02T07:45:00.000Z | confirm=2026-10-02T07:59:59.999Z | startClose=0.04647 | endClose=0.0589 | return=26.75% | overlapCount=34 | overlapRules=4h,2h,1h,15m
+#16 | rule=4h | window=2026-10-02T05:45:00.000Z -> 2026-10-02T09:45:00.000Z | confirm=2026-10-02T09:59:59.999Z | startClose=0.04647 | endClose=0.06155 | return=32.45% | overlapCount=36 | overlapRules=4h,2h,1h,15m
+#17 | rule=1h | window=2026-10-02T06:00:00.000Z -> 2026-10-02T07:00:00.000Z | confirm=2026-10-02T07:14:59.999Z | startClose=0.04656 | endClose=0.05423 | return=16.47% | overlapCount=30 | overlapRules=4h,2h,1h,15m
+#18 | rule=2h | window=2026-10-02T06:00:00.000Z -> 2026-10-02T08:00:00.000Z | confirm=2026-10-02T08:14:59.999Z | startClose=0.04656 | endClose=0.0578 | return=24.14% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#19 | rule=4h | window=2026-10-02T06:00:00.000Z -> 2026-10-02T10:00:00.000Z | confirm=2026-10-02T10:14:59.999Z | startClose=0.04656 | endClose=0.0599 | return=28.65% | overlapCount=37 | overlapRules=4h,2h,1h,15m
+#20 | rule=1h | window=2026-10-02T06:15:00.000Z -> 2026-10-02T07:15:00.000Z | confirm=2026-10-02T07:29:59.999Z | startClose=0.04735 | endClose=0.05601 | return=18.29% | overlapCount=32 | overlapRules=4h,2h,1h,15m
+#21 | rule=2h | window=2026-10-02T06:15:00.000Z -> 2026-10-02T08:15:00.000Z | confirm=2026-10-02T08:29:59.999Z | startClose=0.04735 | endClose=0.06105 | return=28.93% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#22 | rule=4h | window=2026-10-02T06:15:00.000Z -> 2026-10-02T10:15:00.000Z | confirm=2026-10-02T10:29:59.999Z | startClose=0.04735 | endClose=0.06095 | return=28.72% | overlapCount=38 | overlapRules=4h,2h,1h,15m
+#23 | rule=1h | window=2026-10-02T06:30:00.000Z -> 2026-10-02T07:30:00.000Z | confirm=2026-10-02T07:44:59.999Z | startClose=0.04755 | endClose=0.05704 | return=19.96% | overlapCount=33 | overlapRules=4h,2h,1h,15m
+#24 | rule=2h | window=2026-10-02T06:30:00.000Z -> 2026-10-02T08:30:00.000Z | confirm=2026-10-02T08:44:59.999Z | startClose=0.04755 | endClose=0.06148 | return=29.30% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#25 | rule=4h | window=2026-10-02T06:30:00.000Z -> 2026-10-02T10:30:00.000Z | confirm=2026-10-02T10:44:59.999Z | startClose=0.04755 | endClose=0.06202 | return=30.43% | overlapCount=39 | overlapRules=4h,2h,1h,15m
+#26 | rule=15m | window=2026-10-02T06:45:00.000Z -> 2026-10-02T07:00:00.000Z | confirm=2026-10-02T07:14:59.999Z | startClose=0.04814 | endClose=0.05423 | return=12.65% | overlapCount=30 | overlapRules=4h,2h,1h
+#27 | rule=1h | window=2026-10-02T06:45:00.000Z -> 2026-10-02T07:45:00.000Z | confirm=2026-10-02T07:59:59.999Z | startClose=0.04814 | endClose=0.0589 | return=22.35% | overlapCount=34 | overlapRules=4h,2h,1h,15m
+#28 | rule=2h | window=2026-10-02T06:45:00.000Z -> 2026-10-02T08:45:00.000Z | confirm=2026-10-02T08:59:59.999Z | startClose=0.04814 | endClose=0.06056 | return=25.80% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#29 | rule=4h | window=2026-10-02T06:45:00.000Z -> 2026-10-02T10:45:00.000Z | confirm=2026-10-02T10:59:59.999Z | startClose=0.04814 | endClose=0.06464 | return=34.28% | overlapCount=39 | overlapRules=4h,2h,1h,15m
+#30 | rule=2h | window=2026-10-02T07:00:00.000Z -> 2026-10-02T09:00:00.000Z | confirm=2026-10-02T09:14:59.999Z | startClose=0.05423 | endClose=0.06231 | return=14.90% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#31 | rule=4h | window=2026-10-02T07:00:00.000Z -> 2026-10-02T11:00:00.000Z | confirm=2026-10-02T11:14:59.999Z | startClose=0.05423 | endClose=0.064 | return=18.02% | overlapCount=39 | overlapRules=4h,2h,1h,15m
+#32 | rule=2h | window=2026-10-02T07:15:00.000Z -> 2026-10-02T09:15:00.000Z | confirm=2026-10-02T09:29:59.999Z | startClose=0.05601 | endClose=0.06226 | return=11.16% | overlapCount=31 | overlapRules=4h,2h,1h
+#33 | rule=4h | window=2026-10-02T07:15:00.000Z -> 2026-10-02T11:15:00.000Z | confirm=2026-10-02T11:29:59.999Z | startClose=0.05601 | endClose=0.06627 | return=18.32% | overlapCount=35 | overlapRules=4h,2h,1h
+#34 | rule=4h | window=2026-10-02T07:30:00.000Z -> 2026-10-02T11:30:00.000Z | confirm=2026-10-02T11:44:59.999Z | startClose=0.05704 | endClose=0.06663 | return=16.81% | overlapCount=32 | overlapRules=4h,2h,1h
+#35 | rule=4h | window=2026-10-02T07:45:00.000Z -> 2026-10-02T11:45:00.000Z | confirm=2026-10-02T11:59:59.999Z | startClose=0.0589 | endClose=0.07041 | return=19.54% | overlapCount=29 | overlapRules=4h,2h,1h
+#36 | rule=4h | window=2026-10-02T08:00:00.000Z -> 2026-10-02T12:00:00.000Z | confirm=2026-10-02T12:14:59.999Z | startClose=0.0578 | endClose=0.0684 | return=18.34% | overlapCount=26 | overlapRules=4h,2h
+#37 | rule=2h | window=2026-10-02T09:45:00.000Z -> 2026-10-02T11:45:00.000Z | confirm=2026-10-02T11:59:59.999Z | startClose=0.06155 | endClose=0.07041 | return=14.39% | overlapCount=13 | overlapRules=4h,2h
+#38 | rule=2h | window=2026-10-02T10:00:00.000Z -> 2026-10-02T12:00:00.000Z | confirm=2026-10-02T12:14:59.999Z | startClose=0.0599 | endClose=0.0684 | return=14.19% | overlapCount=12 | overlapRules=4h,2h
+#39 | rule=2h | window=2026-10-02T10:15:00.000Z -> 2026-10-02T12:15:00.000Z | confirm=2026-10-02T12:29:59.999Z | startClose=0.06095 | endClose=0.0689 | return=13.04% | overlapCount=11 | overlapRules=4h,2h
+#40 | rule=2h | window=2026-10-02T10:30:00.000Z -> 2026-10-02T12:30:00.000Z | confirm=2026-10-02T12:44:59.999Z | startClose=0.06202 | endClose=0.06871 | return=10.79% | overlapCount=10 | overlapRules=4h,2h
+#41 | rule=4h | window=2026-10-02T23:15:00.000Z -> 2026-10-03T03:15:00.000Z | confirm=2026-10-03T03:29:59.999Z | startClose=0.06574 | endClose=0.07844 | return=19.32% | overlapCount=22 | overlapRules=4h,2h,1h
+#42 | rule=4h | window=2026-10-02T23:30:00.000Z -> 2026-10-03T03:30:00.000Z | confirm=2026-10-03T03:44:59.999Z | startClose=0.06684 | endClose=0.07979 | return=19.37% | overlapCount=22 | overlapRules=4h,2h,1h
+#43 | rule=4h | window=2026-10-03T00:00:00.000Z -> 2026-10-03T04:00:00.000Z | confirm=2026-10-03T04:14:59.999Z | startClose=0.06899 | endClose=0.08016 | return=16.19% | overlapCount=22 | overlapRules=4h,2h,1h
+#44 | rule=4h | window=2026-10-03T00:15:00.000Z -> 2026-10-03T04:15:00.000Z | confirm=2026-10-03T04:29:59.999Z | startClose=0.06416 | endClose=0.08081 | return=25.95% | overlapCount=22 | overlapRules=4h,2h,1h
+#45 | rule=4h | window=2026-10-03T00:30:00.000Z -> 2026-10-03T04:30:00.000Z | confirm=2026-10-03T04:44:59.999Z | startClose=0.06496 | endClose=0.07931 | return=22.09% | overlapCount=22 | overlapRules=4h,2h,1h
+#46 | rule=2h | window=2026-10-03T00:45:00.000Z -> 2026-10-03T02:45:00.000Z | confirm=2026-10-03T02:59:59.999Z | startClose=0.06529 | endClose=0.07355 | return=12.65% | overlapCount=21 | overlapRules=4h,2h,1h
+#47 | rule=4h | window=2026-10-03T00:45:00.000Z -> 2026-10-03T04:45:00.000Z | confirm=2026-10-03T04:59:59.999Z | startClose=0.06529 | endClose=0.0807 | return=23.60% | overlapCount=22 | overlapRules=4h,2h,1h
+#48 | rule=4h | window=2026-10-03T01:00:00.000Z -> 2026-10-03T05:00:00.000Z | confirm=2026-10-03T05:14:59.999Z | startClose=0.06812 | endClose=0.08203 | return=20.42% | overlapCount=22 | overlapRules=4h,2h,1h
+#49 | rule=2h | window=2026-10-03T01:15:00.000Z -> 2026-10-03T03:15:00.000Z | confirm=2026-10-03T03:29:59.999Z | startClose=0.06757 | endClose=0.07844 | return=16.09% | overlapCount=22 | overlapRules=4h,2h,1h
+#50 | rule=4h | window=2026-10-03T01:15:00.000Z -> 2026-10-03T05:15:00.000Z | confirm=2026-10-03T05:29:59.999Z | startClose=0.06757 | endClose=0.07799 | return=15.42% | overlapCount=22 | overlapRules=4h,2h,1h
+#51 | rule=2h | window=2026-10-03T01:30:00.000Z -> 2026-10-03T03:30:00.000Z | confirm=2026-10-03T03:44:59.999Z | startClose=0.06668 | endClose=0.07979 | return=19.66% | overlapCount=22 | overlapRules=4h,2h,1h
+#52 | rule=4h | window=2026-10-03T01:30:00.000Z -> 2026-10-03T05:30:00.000Z | confirm=2026-10-03T05:44:59.999Z | startClose=0.06668 | endClose=0.07878 | return=18.15% | overlapCount=22 | overlapRules=4h,2h,1h
+#53 | rule=1h | window=2026-10-03T01:45:00.000Z -> 2026-10-03T02:45:00.000Z | confirm=2026-10-03T02:59:59.999Z | startClose=0.06525 | endClose=0.07355 | return=12.72% | overlapCount=21 | overlapRules=4h,2h,1h
+#54 | rule=2h | window=2026-10-03T01:45:00.000Z -> 2026-10-03T03:45:00.000Z | confirm=2026-10-03T03:59:59.999Z | startClose=0.06525 | endClose=0.07851 | return=20.32% | overlapCount=22 | overlapRules=4h,2h,1h
+#55 | rule=4h | window=2026-10-03T01:45:00.000Z -> 2026-10-03T05:45:00.000Z | confirm=2026-10-03T05:59:59.999Z | startClose=0.06525 | endClose=0.07987 | return=22.41% | overlapCount=22 | overlapRules=4h,2h,1h
+#56 | rule=1h | window=2026-10-03T02:00:00.000Z -> 2026-10-03T03:00:00.000Z | confirm=2026-10-03T03:14:59.999Z | startClose=0.0662 | endClose=0.07357 | return=11.13% | overlapCount=22 | overlapRules=4h,2h,1h
+#57 | rule=2h | window=2026-10-03T02:00:00.000Z -> 2026-10-03T04:00:00.000Z | confirm=2026-10-03T04:14:59.999Z | startClose=0.0662 | endClose=0.08016 | return=21.09% | overlapCount=22 | overlapRules=4h,2h,1h
+#58 | rule=4h | window=2026-10-03T02:00:00.000Z -> 2026-10-03T06:00:00.000Z | confirm=2026-10-03T06:14:59.999Z | startClose=0.0662 | endClose=0.08004 | return=20.91% | overlapCount=22 | overlapRules=4h,2h,1h
+#59 | rule=1h | window=2026-10-03T02:15:00.000Z -> 2026-10-03T03:15:00.000Z | confirm=2026-10-03T03:29:59.999Z | startClose=0.0669 | endClose=0.07844 | return=17.25% | overlapCount=22 | overlapRules=4h,2h,1h
+#60 | rule=2h | window=2026-10-03T02:15:00.000Z -> 2026-10-03T04:15:00.000Z | confirm=2026-10-03T04:29:59.999Z | startClose=0.0669 | endClose=0.08081 | return=20.79% | overlapCount=22 | overlapRules=4h,2h,1h
+#61 | rule=1h | window=2026-10-03T02:30:00.000Z -> 2026-10-03T03:30:00.000Z | confirm=2026-10-03T03:44:59.999Z | startClose=0.06867 | endClose=0.07979 | return=16.19% | overlapCount=22 | overlapRules=4h,2h,1h
+#62 | rule=2h | window=2026-10-03T02:30:00.000Z -> 2026-10-03T04:30:00.000Z | confirm=2026-10-03T04:44:59.999Z | startClose=0.06867 | endClose=0.07931 | return=15.49% | overlapCount=22 | overlapRules=4h,2h,1h
+#63 | rule=2h | window=2026-10-03T03:00:00.000Z -> 2026-10-03T05:00:00.000Z | confirm=2026-10-03T05:14:59.999Z | startClose=0.07357 | endClose=0.08203 | return=11.50% | overlapCount=20 | overlapRules=4h,2h,1h
+--- Window coverage and actual gaps ---
+Segment 1 starts: 2026-10-02T03:00:00.000Z
+Segment 1: 2026-10-02T03:00:00.000Z -> 2026-10-02T12:30:00.000Z | candidates=40
+GAP after segment 1: 42 uncovered candle(s) | 2026-10-02T12:44:59.999Z -> 2026-10-02T23:29:59.999Z | close-to-close return=-4.32%
+Segment 2: 2026-10-02T23:15:00.000Z -> 2026-10-03T06:00:00.000Z | candidates=23
+=== END RAW CANDIDATE DIAGNOSTICS ===
+Total candidate groups: 2
+First candidate group is the provisional first pump.
+--- Group 0 ---
+Earliest candidate start: 2026-10-02T03:00:00.000Z
+Earliest candidate price: 0.04474
+First confirmation rule: 4h
+First confirmation time: 2026-10-02T07:14:59.999Z
+Confirmation window: 2026-10-02T03:00:00.000Z -> 2026-10-02T07:00:00.000Z
+Confirmation return: 21.21%
+Full group span: 2026-10-02T03:00:00.000Z -> 2026-10-02T12:44:59.999Z
+Rules in group: 4h, 2h, 1h, 15m
+Candidate count: 40
+--- Group 1 ---
+Earliest candidate start: 2026-10-02T23:15:00.000Z
+Earliest candidate price: 0.06574
+First confirmation rule: 2h
+First confirmation time: 2026-10-03T02:59:59.999Z
+Confirmation window: 2026-10-03T00:45:00.000Z -> 2026-10-03T02:45:00.000Z
+Confirmation return: 12.65%
+Full group span: 2026-10-02T23:15:00.000Z -> 2026-10-03T06:14:59.999Z
+Rules in group: 4h, 2h, 1h
+Candidate count: 23
+------------------------------------
+Symbol: NEARUSDT
+Candles loaded: 3719
+Candidates by rule:
+  15m: 0
+  1h: 2
+  2h: 7
+  4h: 2
+=== RAW CANDIDATE DIAGNOSTICS ===
+Total raw candidates: 11
+--- Individual candidate windows ---
+#1 | rule=2h | window=2026-09-11T12:15:00.000Z -> 2026-09-11T14:15:00.000Z | confirm=2026-09-11T14:29:59.999Z | startClose=2.448 | endClose=2.7 | return=10.29% | overlapCount=0 | overlapRules=none
+#2 | rule=4h | window=2026-09-20T12:15:00.000Z -> 2026-09-20T16:15:00.000Z | confirm=2026-09-20T16:29:59.999Z | startClose=3.581 | endClose=4.192 | return=17.06% | overlapCount=8 | overlapRules=4h,2h,1h
+#3 | rule=4h | window=2026-09-20T12:30:00.000Z -> 2026-09-20T16:30:00.000Z | confirm=2026-09-20T16:44:59.999Z | startClose=3.637 | endClose=4.287 | return=17.87% | overlapCount=8 | overlapRules=4h,2h,1h
+#4 | rule=2h | window=2026-09-20T14:15:00.000Z -> 2026-09-20T16:15:00.000Z | confirm=2026-09-20T16:29:59.999Z | startClose=3.68 | endClose=4.192 |return=13.91% | overlapCount=8 | overlapRules=4h,2h,1h
+#5 | rule=2h | window=2026-09-20T14:30:00.000Z -> 2026-09-20T16:30:00.000Z | confirm=2026-09-20T16:44:59.999Z | startClose=3.689 | endClose=4.287 | return=16.21% | overlapCount=8 | overlapRules=4h,2h,1h
+#6 | rule=2h | window=2026-09-20T14:45:00.000Z -> 2026-09-20T16:45:00.000Z | confirm=2026-09-20T16:59:59.999Z | startClose=3.678 | endClose=4.251 | return=15.58% | overlapCount=8 | overlapRules=4h,2h,1h
+#7 | rule=2h | window=2026-09-20T15:00:00.000Z -> 2026-09-20T17:00:00.000Z | confirm=2026-09-20T17:14:59.999Z | startClose=3.653 | endClose=4.136 | return=13.22% | overlapCount=8 | overlapRules=4h,2h,1h
+#8 | rule=1h | window=2026-09-20T15:15:00.000Z -> 2026-09-20T16:15:00.000Z | confirm=2026-09-20T16:29:59.999Z | startClose=3.718 | endClose=4.192 | return=12.75% | overlapCount=8 | overlapRules=4h,2h,1h
+#9 | rule=2h | window=2026-09-20T15:15:00.000Z -> 2026-09-20T17:15:00.000Z | confirm=2026-09-20T17:29:59.999Z | startClose=3.718 | endClose=4.145 | return=11.48% | overlapCount=8 | overlapRules=4h,2h,1h
+#10 | rule=1h | window=2026-09-20T15:30:00.000Z -> 2026-09-20T16:30:00.000Z | confirm=2026-09-20T16:44:59.999Z | startClose=3.796 | endClose=4.287| return=12.93% | overlapCount=8 | overlapRules=4h,2h,1h
+#11 | rule=2h | window=2026-09-25T07:30:00.000Z -> 2026-09-25T09:30:00.000Z | confirm=2026-09-25T09:44:59.999Z | startClose=4.496 | endClose=4.991| return=11.01% | overlapCount=0 | overlapRules=none
+--- Window coverage and actual gaps ---
+Segment 1 starts: 2026-09-11T12:15:00.000Z
+Segment 1: 2026-09-11T12:15:00.000Z -> 2026-09-11T14:15:00.000Z | candidates=1
+GAP after segment 1: 855 uncovered candle(s) | 2026-09-11T14:29:59.999Z -> 2026-09-20T12:29:59.999Z | close-to-close return=32.63%
+Segment 2: 2026-09-20T12:15:00.000Z -> 2026-09-20T17:15:00.000Z | candidates=9
+GAP after segment 2: 440 uncovered candle(s) | 2026-09-20T17:29:59.999Z -> 2026-09-25T07:44:59.999Z | close-to-close return=8.47%
+Segment 3: 2026-09-25T07:30:00.000Z -> 2026-09-25T09:30:00.000Z | candidates=1
+=== END RAW CANDIDATE DIAGNOSTICS ===
+Total candidate groups: 3
+First candidate group is the provisional first pump.
+--- Group 0 ---
+Earliest candidate start: 2026-09-11T12:15:00.000Z
+Earliest candidate price: 2.448
+First confirmation rule: 2h
+First confirmation time: 2026-09-11T14:29:59.999Z
+Confirmation window: 2026-09-11T12:15:00.000Z -> 2026-09-11T14:15:00.000Z
+Confirmation return: 10.29%
+Full group span: 2026-09-11T12:15:00.000Z -> 2026-09-11T14:29:59.999Z
+Rules in group: 2h
+Candidate count: 1
+--- Group 1 ---
+Earliest candidate start: 2026-09-20T12:15:00.000Z
+Earliest candidate price: 3.581
+First confirmation rule: 4h
+First confirmation time: 2026-09-20T16:29:59.999Z
+Confirmation window: 2026-09-20T12:15:00.000Z -> 2026-09-20T16:15:00.000Z
+Confirmation return: 17.06%
+Full group span: 2026-09-20T12:15:00.000Z -> 2026-09-20T17:29:59.999Z
+Rules in group: 4h, 2h, 1h
+Candidate count: 9
+--- Group 2 ---
+Earliest candidate start: 2026-09-25T07:30:00.000Z
+Earliest candidate price: 4.496
+First confirmation rule: 2h
+First confirmation time: 2026-09-25T09:44:59.999Z
+Confirmation window: 2026-09-25T07:30:00.000Z -> 2026-09-25T09:30:00.000Z
+Confirmation return: 11.01%
+Full group span: 2026-09-25T07:30:00.000Z -> 2026-09-25T09:44:59.999Z
+Rules in group: 2h
+Candidate count: 1
+------------------------------------
+Symbol: NIGHTUSDT
+Candles loaded: 2880
+Candidates by rule:
+  15m: 0
+  1h: 0
+  2h: 4
+  4h: 2
+=== RAW CANDIDATE DIAGNOSTICS ===
+Total raw candidates: 6
+--- Individual candidate windows ---
+#1 | rule=4h | window=2026-09-30T07:30:00.000Z -> 2026-09-30T11:30:00.000Z | confirm=2026-09-30T11:44:59.999Z | startClose=0.03248 | endClose=0.03749 | return=15.42% | overlapCount=4 | overlapRules=2h
+#2 | rule=2h | window=2026-09-30T09:00:00.000Z -> 2026-09-30T11:00:00.000Z | confirm=2026-09-30T11:14:59.999Z | startClose=0.03319 | endClose=0.03677 | return=10.79% | overlapCount=4 | overlapRules=4h,2h
+#3 | rule=2h | window=2026-09-30T09:15:00.000Z -> 2026-09-30T11:15:00.000Z | confirm=2026-09-30T11:29:59.999Z | startClose=0.0336 | endClose=0.0373 | return=11.01% | overlapCount=4 | overlapRules=4h,2h
+#4 | rule=2h | window=2026-09-30T09:30:00.000Z -> 2026-09-30T11:30:00.000Z | confirm=2026-09-30T11:44:59.999Z | startClose=0.03345 | endClose=0.03749 | return=12.08% | overlapCount=4 | overlapRules=4h,2h
+#5 | rule=2h | window=2026-09-30T09:45:00.000Z -> 2026-09-30T11:45:00.000Z | confirm=2026-09-30T11:59:59.999Z | startClose=0.03379 | endClose=0.03722 | return=10.15% | overlapCount=4 | overlapRules=4h,2h
+#6 | rule=4h | window=2026-10-02T08:45:00.000Z -> 2026-10-02T12:45:00.000Z | confirm=2026-10-02T12:59:59.999Z | startClose=0.04242 | endClose=0.04895 | return=15.39% | overlapCount=0 | overlapRules=none
+--- Window coverage and actual gaps ---
+Segment 1 starts: 2026-09-30T07:30:00.000Z
+Segment 1: 2026-09-30T07:30:00.000Z -> 2026-09-30T11:45:00.000Z | candidates=5
+GAP after segment 1: 179 uncovered candle(s) | 2026-09-30T11:59:59.999Z -> 2026-10-02T08:59:59.999Z | close-to-close return=13.97%
+Segment 2: 2026-10-02T08:45:00.000Z -> 2026-10-02T12:45:00.000Z | candidates=1
+=== END RAW CANDIDATE DIAGNOSTICS ===
+Total candidate groups: 2
+First candidate group is the provisional first pump.
+--- Group 0 ---
+Earliest candidate start: 2026-09-30T07:30:00.000Z
+Earliest candidate price: 0.03248
+First confirmation rule: 2h
+First confirmation time: 2026-09-30T11:14:59.999Z
+Confirmation window: 2026-09-30T09:00:00.000Z -> 2026-09-30T11:00:00.000Z
+Confirmation return: 10.79%
+Full group span: 2026-09-30T07:30:00.000Z -> 2026-09-30T11:59:59.999Z
+Rules in group: 4h, 2h
+Candidate count: 5
+--- Group 1 ---
+Earliest candidate start: 2026-10-02T08:45:00.000Z
+Earliest candidate price: 0.04242
+First confirmation rule: 4h
+First confirmation time: 2026-10-02T12:59:59.999Z
+Confirmation window: 2026-10-02T08:45:00.000Z -> 2026-10-02T12:45:00.000Z
+Confirmation return: 15.39%
+Full group span: 2026-10-02T08:45:00.000Z -> 2026-10-02T12:59:59.999Z
+Rules in group: 4h
+Candidate count: 1
+------------------------------------
+Symbol: ZECUSDT
+Candles loaded: 2880
+Candidates by rule:
+  15m: 0
+  1h: 0
+  2h: 3
+  4h: 0
+=== RAW CANDIDATE DIAGNOSTICS ===
+Total raw candidates: 3
+--- Individual candidate windows ---
+#1 | rule=2h | window=2026-09-03T13:45:00.000Z -> 2026-09-03T15:45:00.000Z | confirm=2026-09-03T15:59:59.999Z | startClose=855.91 | endClose=954.84 | return=11.56% | overlapCount=0 | overlapRules=none
+#2 | rule=2h | window=2026-09-06T03:30:00.000Z -> 2026-09-06T05:30:00.000Z | confirm=2026-09-06T05:44:59.999Z | startClose=1069.6 | endClose=1181.63 | return=10.47% | overlapCount=0 | overlapRules=none
+#3 | rule=2h | window=2026-09-11T12:00:00.000Z -> 2026-09-11T14:00:00.000Z | confirm=2026-09-11T14:14:59.999Z | startClose=1095.16 | endClose=1209| return=10.39% | overlapCount=0 | overlapRules=none
+--- Window coverage and actual gaps ---
+Segment 1 starts: 2026-09-03T13:45:00.000Z
+Segment 1: 2026-09-03T13:45:00.000Z -> 2026-09-03T15:45:00.000Z | candidates=1
+GAP after segment 1: 238 uncovered candle(s) | 2026-09-03T15:59:59.999Z -> 2026-09-06T03:44:59.999Z | close-to-close return=12.02%
+Segment 2: 2026-09-06T03:30:00.000Z -> 2026-09-06T05:30:00.000Z | candidates=1
+GAP after segment 2: 505 uncovered candle(s) | 2026-09-06T05:44:59.999Z -> 2026-09-11T12:14:59.999Z | close-to-close return=-7.32%
+Segment 3: 2026-09-11T12:00:00.000Z -> 2026-09-11T14:00:00.000Z | candidates=1
+=== END RAW CANDIDATE DIAGNOSTICS ===
+Total candidate groups: 3
+First candidate group is the provisional first pump.
+--- Group 0 ---
+Earliest candidate start: 2026-09-03T13:45:00.000Z
+Earliest candidate price: 855.91
+First confirmation rule: 2h
+First confirmation time: 2026-09-03T15:59:59.999Z
+Confirmation window: 2026-09-03T13:45:00.000Z -> 2026-09-03T15:45:00.000Z
+Confirmation return: 11.56%
+Full group span: 2026-09-03T13:45:00.000Z -> 2026-09-03T15:59:59.999Z
+Rules in group: 2h
+Candidate count: 1
+--- Group 1 ---
+Earliest candidate start: 2026-09-06T03:30:00.000Z
+Earliest candidate price: 1069.6
+First confirmation rule: 2h
+First confirmation time: 2026-09-06T05:44:59.999Z
+Confirmation window: 2026-09-06T03:30:00.000Z -> 2026-09-06T05:30:00.000Z
+Confirmation return: 10.47%
+Full group span: 2026-09-06T03:30:00.000Z -> 2026-09-06T05:44:59.999Z
+Rules in group: 2h
+Candidate count: 1
+--- Group 2 ---
+Earliest candidate start: 2026-09-11T12:00:00.000Z
+Earliest candidate price: 1095.16
+First confirmation rule: 2h
+First confirmation time: 2026-09-11T14:14:59.999Z
+Confirmation window: 2026-09-11T12:00:00.000Z -> 2026-09-11T14:00:00.000Z
+Confirmation return: 10.39%
+Full group span: 2026-09-11T12:00:00.000Z -> 2026-09-11T14:14:59.999Z
+Rules in group: 2h
+Candidate count: 1
+------------------------------------
+Symbol: OGNUSDT
+Candles loaded: 2941
+Candidates by rule:
+  15m: 3
+  1h: 19
+  2h: 33
+  4h: 38
+=== RAW CANDIDATE DIAGNOSTICS ===
+Total raw candidates: 93
+--- Individual candidate windows ---
+#1 | rule=4h | window=2026-10-05T10:30:00.000Z -> 2026-10-05T14:30:00.000Z | confirm=2026-10-05T14:44:59.999Z | startClose=0.02057 | endClose=0.02465 | return=19.83% | overlapCount=3 | overlapRules=4h,1h,15m
+#2 | rule=4h | window=2026-10-05T10:45:00.000Z -> 2026-10-05T14:45:00.000Z | confirm=2026-10-05T14:59:59.999Z | startClose=0.02063 | endClose=0.02378 | return=15.27% | overlapCount=3 | overlapRules=4h,1h,15m
+#3 | rule=1h | window=2026-10-05T13:30:00.000Z -> 2026-10-05T14:30:00.000Z | confirm=2026-10-05T14:44:59.999Z | startClose=0.02162 | endClose=0.02465 | return=14.01% | overlapCount=3 | overlapRules=4h,15m
+#4 | rule=15m | window=2026-10-05T14:15:00.000Z -> 2026-10-05T14:30:00.000Z | confirm=2026-10-05T14:44:59.999Z | startClose=0.02222 | endClose=0.02465 | return=10.94% | overlapCount=3 | overlapRules=4h,1h
+#5 | rule=4h | window=2026-10-08T05:45:00.000Z -> 2026-10-08T09:45:00.000Z | confirm=2026-10-08T09:59:59.999Z | startClose=0.02244 | endClose=0.02698 | return=20.23% | overlapCount=36 | overlapRules=4h,2h,1h
+#6 | rule=4h | window=2026-10-08T06:00:00.000Z -> 2026-10-08T10:00:00.000Z | confirm=2026-10-08T10:14:59.999Z | startClose=0.02252 | endClose=0.02903 | return=28.91% | overlapCount=39 | overlapRules=4h,2h,1h
+#7 | rule=4h | window=2026-10-08T06:15:00.000Z -> 2026-10-08T10:15:00.000Z | confirm=2026-10-08T10:29:59.999Z | startClose=0.02264 | endClose=0.03014 | return=33.13% | overlapCount=42 | overlapRules=4h,2h,1h
+#8 | rule=2h | window=2026-10-08T06:30:00.000Z -> 2026-10-08T08:30:00.000Z | confirm=2026-10-08T08:44:59.999Z | startClose=0.02269 | endClose=0.02524 | return=11.24% | overlapCount=22 | overlapRules=4h,2h,1h
+#9 | rule=4h | window=2026-10-08T06:30:00.000Z -> 2026-10-08T10:30:00.000Z | confirm=2026-10-08T10:44:59.999Z | startClose=0.02269 | endClose=0.03061 | return=34.91% | overlapCount=45 | overlapRules=4h,2h,1h
+#10 | rule=2h | window=2026-10-08T06:45:00.000Z -> 2026-10-08T08:45:00.000Z | confirm=2026-10-08T08:59:59.999Z | startClose=0.02253 | endClose=0.02577 | return=14.38% | overlapCount=24 | overlapRules=4h,2h,1h
+#11 | rule=4h | window=2026-10-08T06:45:00.000Z -> 2026-10-08T10:45:00.000Z | confirm=2026-10-08T10:59:59.999Z | startClose=0.02253 | endClose=0.03281 | return=45.63% | overlapCount=48 | overlapRules=4h,2h,1h
+#12 | rule=2h | window=2026-10-08T07:00:00.000Z -> 2026-10-08T09:00:00.000Z | confirm=2026-10-08T09:14:59.999Z | startClose=0.02279 | endClose=0.02526 | return=10.84% | overlapCount=27 | overlapRules=4h,2h,1h
+#13 | rule=4h | window=2026-10-08T07:00:00.000Z -> 2026-10-08T11:00:00.000Z | confirm=2026-10-08T11:14:59.999Z | startClose=0.02279 | endClose=0.0326 | return=43.05% | overlapCount=51 | overlapRules=4h,2h,1h
+#14 | rule=2h | window=2026-10-08T07:15:00.000Z -> 2026-10-08T09:15:00.000Z | confirm=2026-10-08T09:29:59.999Z | startClose=0.02257 | endClose=0.02488 | return=10.23% | overlapCount=30 | overlapRules=4h,2h,1h
+#15 | rule=4h | window=2026-10-08T07:15:00.000Z -> 2026-10-08T11:15:00.000Z | confirm=2026-10-08T11:29:59.999Z | startClose=0.02257 | endClose=0.03433 | return=52.10% | overlapCount=54 | overlapRules=4h,2h,1h
+#16 | rule=1h | window=2026-10-08T07:30:00.000Z -> 2026-10-08T08:30:00.000Z | confirm=2026-10-08T08:44:59.999Z | startClose=0.02257 | endClose=0.02524 | return=11.83% | overlapCount=22 | overlapRules=4h,2h,1h
+#17 | rule=2h | window=2026-10-08T07:30:00.000Z -> 2026-10-08T09:30:00.000Z | confirm=2026-10-08T09:44:59.999Z | startClose=0.02257 | endClose=0.02509 | return=11.17% | overlapCount=33 | overlapRules=4h,2h,1h
+#18 | rule=4h | window=2026-10-08T07:30:00.000Z -> 2026-10-08T11:30:00.000Z | confirm=2026-10-08T11:44:59.999Z | startClose=0.02257 | endClose=0.03543 | return=56.98% | overlapCount=55 | overlapRules=4h,2h,1h
+#19 | rule=1h | window=2026-10-08T07:45:00.000Z -> 2026-10-08T08:45:00.000Z | confirm=2026-10-08T08:59:59.999Z | startClose=0.02247 | endClose=0.02577 | return=14.69% | overlapCount=24 | overlapRules=4h,2h,1h
+#20 | rule=2h | window=2026-10-08T07:45:00.000Z -> 2026-10-08T09:45:00.000Z | confirm=2026-10-08T09:59:59.999Z | startClose=0.02247 | endClose=0.02698 | return=20.07% | overlapCount=36 | overlapRules=4h,2h,1h
+#21 | rule=4h | window=2026-10-08T07:45:00.000Z -> 2026-10-08T11:45:00.000Z | confirm=2026-10-08T11:59:59.999Z | startClose=0.02247 | endClose=0.03616 | return=60.93% | overlapCount=57 | overlapRules=4h,2h,1h
+#22 | rule=2h | window=2026-10-08T08:00:00.000Z -> 2026-10-08T10:00:00.000Z | confirm=2026-10-08T10:14:59.999Z | startClose=0.02335 | endClose=0.02903 | return=24.33% | overlapCount=39 | overlapRules=4h,2h,1h
+#23 | rule=4h | window=2026-10-08T08:00:00.000Z -> 2026-10-08T12:00:00.000Z | confirm=2026-10-08T12:14:59.999Z | startClose=0.02335 | endClose=0.03781 | return=61.93% | overlapCount=57 | overlapRules=4h,2h,1h
+#24 | rule=2h | window=2026-10-08T08:15:00.000Z -> 2026-10-08T10:15:00.000Z | confirm=2026-10-08T10:29:59.999Z | startClose=0.0244 | endClose=0.03014 | return=23.52% | overlapCount=42 | overlapRules=4h,2h,1h
+#25 | rule=4h | window=2026-10-08T08:15:00.000Z -> 2026-10-08T12:15:00.000Z | confirm=2026-10-08T12:29:59.999Z | startClose=0.0244 | endClose=0.03909 | return=60.20% | overlapCount=57 | overlapRules=4h,2h,1h
+#26 | rule=2h | window=2026-10-08T08:30:00.000Z -> 2026-10-08T10:30:00.000Z | confirm=2026-10-08T10:44:59.999Z | startClose=0.02524 | endClose=0.03061 | return=21.28% | overlapCount=45 | overlapRules=4h,2h,1h
+#27 | rule=4h | window=2026-10-08T08:30:00.000Z -> 2026-10-08T12:30:00.000Z | confirm=2026-10-08T12:44:59.999Z | startClose=0.02524 | endClose=0.0387 | return=53.33% | overlapCount=58 | overlapRules=4h,2h,1h
+#28 | rule=2h | window=2026-10-08T08:45:00.000Z -> 2026-10-08T10:45:00.000Z | confirm=2026-10-08T10:59:59.999Z | startClose=0.02577 | endClose=0.03281 | return=27.32% | overlapCount=46 | overlapRules=4h,2h,1h
+#29 | rule=4h | window=2026-10-08T08:45:00.000Z -> 2026-10-08T12:45:00.000Z | confirm=2026-10-08T12:59:59.999Z | startClose=0.02577 | endClose=0.04206 | return=63.21% | overlapCount=56 | overlapRules=4h,2h,1h
+#30 | rule=1h | window=2026-10-08T09:00:00.000Z -> 2026-10-08T10:00:00.000Z | confirm=2026-10-08T10:14:59.999Z | startClose=0.02526 | endClose=0.02903 | return=14.92% | overlapCount=35 | overlapRules=4h,2h,1h
+#31 | rule=2h | window=2026-10-08T09:00:00.000Z -> 2026-10-08T11:00:00.000Z | confirm=2026-10-08T11:14:59.999Z | startClose=0.02526 | endClose=0.0326 | return=29.06% | overlapCount=47 | overlapRules=4h,2h,1h
+#32 | rule=4h | window=2026-10-08T09:00:00.000Z -> 2026-10-08T13:00:00.000Z | confirm=2026-10-08T13:14:59.999Z | startClose=0.02526 | endClose=0.04032 | return=59.62% | overlapCount=54 | overlapRules=4h,2h,1h
+#33 | rule=1h | window=2026-10-08T09:15:00.000Z -> 2026-10-08T10:15:00.000Z | confirm=2026-10-08T10:29:59.999Z | startClose=0.02488 | endClose=0.03014 | return=21.14% | overlapCount=37 | overlapRules=4h,2h,1h
+#34 | rule=2h | window=2026-10-08T09:15:00.000Z -> 2026-10-08T11:15:00.000Z | confirm=2026-10-08T11:29:59.999Z | startClose=0.02488 | endClose=0.03433 | return=37.98% | overlapCount=49 | overlapRules=4h,2h,1h
+#35 | rule=4h | window=2026-10-08T09:15:00.000Z -> 2026-10-08T13:15:00.000Z | confirm=2026-10-08T13:29:59.999Z | startClose=0.02488 | endClose=0.03998 | return=60.69% | overlapCount=54 | overlapRules=4h,2h,1h
+#36 | rule=1h | window=2026-10-08T09:30:00.000Z -> 2026-10-08T10:30:00.000Z | confirm=2026-10-08T10:44:59.999Z | startClose=0.02509 | endClose=0.03061 | return=22.00% | overlapCount=39 | overlapRules=4h,2h,1h
+#37 | rule=2h | window=2026-10-08T09:30:00.000Z -> 2026-10-08T11:30:00.000Z | confirm=2026-10-08T11:44:59.999Z | startClose=0.02509 | endClose=0.03543 | return=41.21% | overlapCount=49 | overlapRules=4h,2h,1h
+#38 | rule=4h | window=2026-10-08T09:30:00.000Z -> 2026-10-08T13:30:00.000Z | confirm=2026-10-08T13:44:59.999Z | startClose=0.02509 | endClose=0.04058 | return=61.74% | overlapCount=54 | overlapRules=4h,2h,1h
+#39 | rule=1h | window=2026-10-08T09:45:00.000Z -> 2026-10-08T10:45:00.000Z | confirm=2026-10-08T10:59:59.999Z | startClose=0.02698 | endClose=0.03281 | return=21.61% | overlapCount=41 | overlapRules=4h,2h,1h
+#40 | rule=2h | window=2026-10-08T09:45:00.000Z -> 2026-10-08T11:45:00.000Z | confirm=2026-10-08T11:59:59.999Z | startClose=0.02698 | endClose=0.03616 | return=34.03% | overlapCount=50 | overlapRules=4h,2h,1h
+#41 | rule=4h | window=2026-10-08T09:45:00.000Z -> 2026-10-08T13:45:00.000Z | confirm=2026-10-08T13:59:59.999Z | startClose=0.02698 | endClose=0.04215 | return=56.23% | overlapCount=53 | overlapRules=4h,2h,1h
+#42 | rule=1h | window=2026-10-08T10:00:00.000Z -> 2026-10-08T11:00:00.000Z | confirm=2026-10-08T11:14:59.999Z | startClose=0.02903 | endClose=0.0326 | return=12.30% | overlapCount=42 | overlapRules=4h,2h,1h
+#43 | rule=2h | window=2026-10-08T10:00:00.000Z -> 2026-10-08T12:00:00.000Z | confirm=2026-10-08T12:14:59.999Z | startClose=0.02903 | endClose=0.03781 | return=30.24% | overlapCount=48 | overlapRules=4h,2h,1h
+#44 | rule=4h | window=2026-10-08T10:00:00.000Z -> 2026-10-08T14:00:00.000Z | confirm=2026-10-08T14:14:59.999Z | startClose=0.02903 | endClose=0.04127 | return=42.16% | overlapCount=51 | overlapRules=4h,2h,1h
+#45 | rule=1h | window=2026-10-08T10:15:00.000Z -> 2026-10-08T11:15:00.000Z | confirm=2026-10-08T11:29:59.999Z | startClose=0.03014 | endClose=0.03433 | return=13.90% | overlapCount=42 | overlapRules=4h,2h,1h
+#46 | rule=2h | window=2026-10-08T10:15:00.000Z -> 2026-10-08T12:15:00.000Z | confirm=2026-10-08T12:29:59.999Z | startClose=0.03014 | endClose=0.03909 | return=29.69% | overlapCount=45 | overlapRules=4h,2h,1h
+#47 | rule=4h | window=2026-10-08T10:15:00.000Z -> 2026-10-08T14:15:00.000Z | confirm=2026-10-08T14:29:59.999Z | startClose=0.03014 | endClose=0.04248 | return=40.94% | overlapCount=48 | overlapRules=4h,2h,1h
+#48 | rule=1h | window=2026-10-08T10:30:00.000Z -> 2026-10-08T11:30:00.000Z | confirm=2026-10-08T11:44:59.999Z | startClose=0.03061 | endClose=0.03543 | return=15.75% | overlapCount=40 | overlapRules=4h,2h,1h
+#49 | rule=2h | window=2026-10-08T10:30:00.000Z -> 2026-10-08T12:30:00.000Z | confirm=2026-10-08T12:44:59.999Z | startClose=0.03061 | endClose=0.0387 | return=26.43% | overlapCount=43 | overlapRules=4h,2h,1h
+#50 | rule=4h | window=2026-10-08T10:30:00.000Z -> 2026-10-08T14:30:00.000Z | confirm=2026-10-08T14:44:59.999Z | startClose=0.03061 | endClose=0.04322 | return=41.20% | overlapCount=46 | overlapRules=4h,2h,1h
+#51 | rule=1h | window=2026-10-08T10:45:00.000Z -> 2026-10-08T11:45:00.000Z | confirm=2026-10-08T11:59:59.999Z | startClose=0.03281 | endClose=0.03616 | return=10.21% | overlapCount=39 | overlapRules=4h,2h,1h
+#52 | rule=2h | window=2026-10-08T10:45:00.000Z -> 2026-10-08T12:45:00.000Z | confirm=2026-10-08T12:59:59.999Z | startClose=0.03281 | endClose=0.04206 | return=28.19% | overlapCount=40 | overlapRules=4h,2h,1h
+#53 | rule=4h | window=2026-10-08T10:45:00.000Z -> 2026-10-08T14:45:00.000Z | confirm=2026-10-08T14:59:59.999Z | startClose=0.03281 | endClose=0.04103 | return=25.05% | overlapCount=44 | overlapRules=4h,2h,1h
+#54 | rule=1h | window=2026-10-08T11:00:00.000Z -> 2026-10-08T12:00:00.000Z | confirm=2026-10-08T12:14:59.999Z | startClose=0.0326 | endClose=0.03781 | return=15.98% | overlapCount=36 | overlapRules=4h,2h,1h
+#55 | rule=2h | window=2026-10-08T11:00:00.000Z -> 2026-10-08T13:00:00.000Z | confirm=2026-10-08T13:14:59.999Z | startClose=0.0326 | endClose=0.04032 | return=23.68% | overlapCount=37 | overlapRules=4h,2h,1h
+#56 | rule=4h | window=2026-10-08T11:00:00.000Z -> 2026-10-08T15:00:00.000Z | confirm=2026-10-08T15:14:59.999Z | startClose=0.0326 | endClose=0.04099 | return=25.74% | overlapCount=42 | overlapRules=4h,2h,1h
+#57 | rule=1h | window=2026-10-08T11:15:00.000Z -> 2026-10-08T12:15:00.000Z | confirm=2026-10-08T12:29:59.999Z | startClose=0.03433 | endClose=0.03909 | return=13.87% | overlapCount=33 | overlapRules=4h,2h,1h
+#58 | rule=2h | window=2026-10-08T11:15:00.000Z -> 2026-10-08T13:15:00.000Z | confirm=2026-10-08T13:29:59.999Z | startClose=0.03433 | endClose=0.03998 | return=16.46% | overlapCount=35 | overlapRules=4h,2h,1h
+#59 | rule=4h | window=2026-10-08T11:15:00.000Z -> 2026-10-08T15:15:00.000Z | confirm=2026-10-08T15:29:59.999Z | startClose=0.03433 | endClose=0.04196 | return=22.23% | overlapCount=40 | overlapRules=4h,2h,1h
+#60 | rule=2h | window=2026-10-08T11:30:00.000Z -> 2026-10-08T13:30:00.000Z | confirm=2026-10-08T13:44:59.999Z | startClose=0.03543 | endClose=0.04058 | return=14.54% | overlapCount=33 | overlapRules=4h,2h,1h
+#61 | rule=1h | window=2026-10-08T11:45:00.000Z -> 2026-10-08T12:45:00.000Z | confirm=2026-10-08T12:59:59.999Z | startClose=0.03616 | endClose=0.04206 | return=16.32% | overlapCount=28 | overlapRules=4h,2h,1h
+#62 | rule=2h | window=2026-10-08T11:45:00.000Z -> 2026-10-08T13:45:00.000Z | confirm=2026-10-08T13:59:59.999Z | startClose=0.03616 | endClose=0.04215 | return=16.57% | overlapCount=30 | overlapRules=4h,2h,1h
+#63 | rule=2h | window=2026-10-08T12:30:00.000Z -> 2026-10-08T14:30:00.000Z | confirm=2026-10-08T14:44:59.999Z | startClose=0.0387 | endClose=0.04322 | return=11.68% | overlapCount=22 | overlapRules=4h,2h,1h
+#64 | rule=4h | window=2026-10-08T13:15:00.000Z -> 2026-10-08T17:15:00.000Z | confirm=2026-10-08T17:29:59.999Z | startClose=0.03998 | endClose=0.04742 | return=18.61% | overlapCount=37 | overlapRules=4h,2h,1h,15m
+#65 | rule=4h | window=2026-10-08T13:30:00.000Z -> 2026-10-08T17:30:00.000Z | confirm=2026-10-08T17:44:59.999Z | startClose=0.04058 | endClose=0.04832 | return=19.07% | overlapCount=35 | overlapRules=4h,2h,1h,15m
+#66 | rule=4h | window=2026-10-08T14:30:00.000Z -> 2026-10-08T18:30:00.000Z | confirm=2026-10-08T18:44:59.999Z | startClose=0.04322 | endClose=0.04995 | return=15.57% | overlapCount=29 | overlapRules=4h,2h,1h,15m
+#67 | rule=4h | window=2026-10-08T14:45:00.000Z -> 2026-10-08T18:45:00.000Z | confirm=2026-10-08T18:59:59.999Z | startClose=0.04103 | endClose=0.04906 | return=19.57% | overlapCount=27 | overlapRules=4h,2h,1h,15m
+#68 | rule=4h | window=2026-10-08T15:00:00.000Z -> 2026-10-08T19:00:00.000Z | confirm=2026-10-08T19:14:59.999Z | startClose=0.04099 | endClose=0.04956 | return=20.91% | overlapCount=26 | overlapRules=4h,2h,1h,15m
+#69 | rule=2h | window=2026-10-08T15:15:00.000Z -> 2026-10-08T17:15:00.000Z | confirm=2026-10-08T17:29:59.999Z | startClose=0.04196 | endClose=0.04742 | return=13.01% | overlapCount=25 | overlapRules=4h,2h,1h,15m
+#70 | rule=2h | window=2026-10-08T15:30:00.000Z -> 2026-10-08T17:30:00.000Z | confirm=2026-10-08T17:44:59.999Z | startClose=0.04011 | endClose=0.04832 | return=20.47% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#71 | rule=4h | window=2026-10-08T15:30:00.000Z -> 2026-10-08T19:30:00.000Z | confirm=2026-10-08T19:44:59.999Z | startClose=0.04011 | endClose=0.04921 | return=22.69% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#72 | rule=2h | window=2026-10-08T15:45:00.000Z -> 2026-10-08T17:45:00.000Z | confirm=2026-10-08T17:59:59.999Z | startClose=0.03883 | endClose=0.04626 | return=19.13% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#73 | rule=4h | window=2026-10-08T15:45:00.000Z -> 2026-10-08T19:45:00.000Z | confirm=2026-10-08T19:59:59.999Z | startClose=0.03883 | endClose=0.0492 | return=26.71% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#74 | rule=2h | window=2026-10-08T16:00:00.000Z -> 2026-10-08T18:00:00.000Z | confirm=2026-10-08T18:14:59.999Z | startClose=0.04104 | endClose=0.04653 | return=13.38% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#75 | rule=4h | window=2026-10-08T16:00:00.000Z -> 2026-10-08T20:00:00.000Z | confirm=2026-10-08T20:14:59.999Z | startClose=0.04104 | endClose=0.05021 | return=22.34% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#76 | rule=1h | window=2026-10-08T16:15:00.000Z -> 2026-10-08T17:15:00.000Z | confirm=2026-10-08T17:29:59.999Z | startClose=0.03969 | endClose=0.04742 | return=19.48% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#77 | rule=2h | window=2026-10-08T16:15:00.000Z -> 2026-10-08T18:15:00.000Z | confirm=2026-10-08T18:29:59.999Z | startClose=0.03969 | endClose=0.04788 | return=20.63% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#78 | rule=4h | window=2026-10-08T16:15:00.000Z -> 2026-10-08T20:15:00.000Z | confirm=2026-10-08T20:29:59.999Z | startClose=0.03969 | endClose=0.05161 | return=30.03% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#79 | rule=1h | window=2026-10-08T16:30:00.000Z -> 2026-10-08T17:30:00.000Z | confirm=2026-10-08T17:44:59.999Z | startClose=0.0393 | endClose=0.04832 | return=22.95% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#80 | rule=2h | window=2026-10-08T16:30:00.000Z -> 2026-10-08T18:30:00.000Z | confirm=2026-10-08T18:44:59.999Z | startClose=0.0393 | endClose=0.04995 | return=27.10% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#81 | rule=4h | window=2026-10-08T16:30:00.000Z -> 2026-10-08T20:30:00.000Z | confirm=2026-10-08T20:44:59.999Z | startClose=0.0393 | endClose=0.05069 | return=28.98% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#82 | rule=1h | window=2026-10-08T16:45:00.000Z -> 2026-10-08T17:45:00.000Z | confirm=2026-10-08T17:59:59.999Z | startClose=0.03955 | endClose=0.04626 | return=16.97% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#83 | rule=2h | window=2026-10-08T16:45:00.000Z -> 2026-10-08T18:45:00.000Z | confirm=2026-10-08T18:59:59.999Z | startClose=0.03955 | endClose=0.04906 | return=24.05% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#84 | rule=4h | window=2026-10-08T16:45:00.000Z -> 2026-10-08T20:45:00.000Z | confirm=2026-10-08T20:59:59.999Z | startClose=0.03955 | endClose=0.04949 | return=25.13% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#85 | rule=15m | window=2026-10-08T17:00:00.000Z -> 2026-10-08T17:15:00.000Z | confirm=2026-10-08T17:29:59.999Z | startClose=0.04077 | endClose=0.04742 | return=16.31% | overlapCount=24 | overlapRules=4h,2h,1h
+#86 | rule=1h | window=2026-10-08T17:00:00.000Z -> 2026-10-08T18:00:00.000Z | confirm=2026-10-08T18:14:59.999Z | startClose=0.04077 | endClose=0.04653 | return=14.13% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#87 | rule=2h | window=2026-10-08T17:00:00.000Z -> 2026-10-08T19:00:00.000Z | confirm=2026-10-08T19:14:59.999Z | startClose=0.04077 | endClose=0.04956 | return=21.56% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#88 | rule=4h | window=2026-10-08T17:00:00.000Z -> 2026-10-08T21:00:00.000Z | confirm=2026-10-08T21:14:59.999Z | startClose=0.04077 | endClose=0.04987 | return=22.32% | overlapCount=24 | overlapRules=4h,2h,1h,15m
+#89 | rule=2h | window=2026-10-09T17:15:00.000Z -> 2026-10-09T19:15:00.000Z | confirm=2026-10-09T19:29:59.999Z | startClose=0.03596 | endClose=0.03956 | return=10.01% | overlapCount=0 | overlapRules=none
+#90 | rule=4h | window=2026-10-10T04:00:00.000Z -> 2026-10-10T08:00:00.000Z | confirm=2026-10-10T08:14:59.999Z | startClose=0.03638 | endClose=0.04501 | return=23.72% | overlapCount=3 | overlapRules=2h,1h,15m
+#91 | rule=2h | window=2026-10-10T06:00:00.000Z -> 2026-10-10T08:00:00.000Z | confirm=2026-10-10T08:14:59.999Z | startClose=0.037 | endClose=0.04501 | return=21.65% | overlapCount=3 | overlapRules=4h,1h,15m
+#92 | rule=1h | window=2026-10-10T07:00:00.000Z -> 2026-10-10T08:00:00.000Z | confirm=2026-10-10T08:14:59.999Z | startClose=0.03665 | endClose=0.04501 | return=22.81% | overlapCount=3 | overlapRules=4h,2h,15m
+#93 | rule=15m | window=2026-10-10T07:45:00.000Z -> 2026-10-10T08:00:00.000Z | confirm=2026-10-10T08:14:59.999Z | startClose=0.03668 | endClose=0.04501 | return=22.71% | overlapCount=3 | overlapRules=4h,2h,1h
+--- Window coverage and actual gaps ---
+Segment 1 starts: 2026-10-05T10:30:00.000Z
+Segment 1: 2026-10-05T10:30:00.000Z -> 2026-10-05T14:45:00.000Z | candidates=4
+GAP after segment 1: 251 uncovered candle(s) | 2026-10-05T14:59:59.999Z -> 2026-10-08T05:59:59.999Z | close-to-close return=-5.63%
+Segment 2: 2026-10-08T05:45:00.000Z -> 2026-10-08T21:00:00.000Z | candidates=84
+GAP after segment 2: 80 uncovered candle(s) | 2026-10-08T21:14:59.999Z -> 2026-10-09T17:29:59.999Z | close-to-close return=-27.89%
+Segment 3: 2026-10-09T17:15:00.000Z -> 2026-10-09T19:15:00.000Z | candidates=1
+GAP after segment 3: 34 uncovered candle(s) | 2026-10-09T19:29:59.999Z -> 2026-10-10T04:14:59.999Z | close-to-close return=-8.04%
+Segment 4: 2026-10-10T04:00:00.000Z -> 2026-10-10T08:00:00.000Z | candidates=4
+=== END RAW CANDIDATE DIAGNOSTICS ===
+Total candidate groups: 4
+First candidate group is the provisional first pump.
+--- Group 0 ---
+Earliest candidate start: 2026-10-05T10:30:00.000Z
+Earliest candidate price: 0.02057
+First confirmation rule: 4h
+First confirmation time: 2026-10-05T14:44:59.999Z
+Confirmation window: 2026-10-05T10:30:00.000Z -> 2026-10-05T14:30:00.000Z
+Confirmation return: 19.83%
+Full group span: 2026-10-05T10:30:00.000Z -> 2026-10-05T14:59:59.999Z
+Rules in group: 4h, 1h, 15m
+Candidate count: 4
+--- Group 1 ---
+Earliest candidate start: 2026-10-08T05:45:00.000Z
+Earliest candidate price: 0.02244
+First confirmation rule: 2h
+First confirmation time: 2026-10-08T08:44:59.999Z
+Confirmation window: 2026-10-08T06:30:00.000Z -> 2026-10-08T08:30:00.000Z
+Confirmation return: 11.24%
+Full group span: 2026-10-08T05:45:00.000Z -> 2026-10-08T21:14:59.999Z
+Rules in group: 4h, 2h, 1h, 15m
+Candidate count: 84
+--- Group 2 ---
+Earliest candidate start: 2026-10-09T17:15:00.000Z
+Earliest candidate price: 0.03596
+First confirmation rule: 2h
+First confirmation time: 2026-10-09T19:29:59.999Z
+Confirmation window: 2026-10-09T17:15:00.000Z -> 2026-10-09T19:15:00.000Z
+Confirmation return: 10.01%
+Full group span: 2026-10-09T17:15:00.000Z -> 2026-10-09T19:29:59.999Z
+Rules in group: 2h
+Candidate count: 1
+--- Group 3 ---
+Earliest candidate start: 2026-10-10T04:00:00.000Z
+Earliest candidate price: 0.03638
+First confirmation rule: 4h
+First confirmation time: 2026-10-10T08:14:59.999Z
+Confirmation window: 2026-10-10T04:00:00.000Z -> 2026-10-10T08:00:00.000Z
+Confirmation return: 23.72%
+Full group span: 2026-10-10T04:00:00.000Z -> 2026-10-10T08:14:59.999Z
+Rules in group: 4h, 2h, 1h, 15m
+Candidate count: 4
+------------------------------------
+Symbol: APTUSDT
+Candles loaded: 2889
+Candidates by rule:
+  15m: 0
+  1h: 0
+  2h: 4
+  4h: 2
+=== RAW CANDIDATE DIAGNOSTICS ===
+Total raw candidates: 6
+--- Individual candidate windows ---
+#1 | rule=4h | window=2026-09-17T23:15:00.000Z -> 2026-09-18T03:15:00.000Z | confirm=2026-09-18T03:29:59.999Z | startClose=0.598 | endClose=0.6989| return=16.87% | overlapCount=4 | overlapRules=4h,2h
+#2 | rule=4h | window=2026-09-17T23:30:00.000Z -> 2026-09-18T03:30:00.000Z | confirm=2026-09-18T03:44:59.999Z | startClose=0.5956 | endClose=0.7083 | return=18.92% | overlapCount=4 | overlapRules=4h,2h
+#3 | rule=2h | window=2026-09-18T01:00:00.000Z -> 2026-09-18T03:00:00.000Z | confirm=2026-09-18T03:14:59.999Z | startClose=0.6059 | endClose=0.6763 | return=11.62% | overlapCount=4 | overlapRules=4h,2h
+#4 | rule=2h | window=2026-09-18T01:15:00.000Z -> 2026-09-18T03:15:00.000Z | confirm=2026-09-18T03:29:59.999Z | startClose=0.6113 | endClose=0.6989 | return=14.33% | overlapCount=4 | overlapRules=4h,2h
+#5 | rule=2h | window=2026-09-18T01:30:00.000Z -> 2026-09-18T03:30:00.000Z | confirm=2026-09-18T03:44:59.999Z | startClose=0.6127 | endClose=0.7083 | return=15.60% | overlapCount=4 | overlapRules=4h,2h
+#6 | rule=2h | window=2026-10-11T13:15:00.000Z -> 2026-10-11T15:15:00.000Z | confirm=2026-10-11T15:29:59.999Z | startClose=0.8692 | endClose=0.957| return=10.10% | overlapCount=0 | overlapRules=none
+--- Window coverage and actual gaps ---
+Segment 1 starts: 2026-09-17T23:15:00.000Z
+Segment 1: 2026-09-17T23:15:00.000Z -> 2026-09-18T03:30:00.000Z | candidates=5
+GAP after segment 1: 2246 uncovered candle(s) | 2026-09-18T03:44:59.999Z -> 2026-10-11T13:29:59.999Z | close-to-close return=22.72%
+Segment 2: 2026-10-11T13:15:00.000Z -> 2026-10-11T15:15:00.000Z | candidates=1
+=== END RAW CANDIDATE DIAGNOSTICS ===
+Total candidate groups: 2
+First candidate group is the provisional first pump.
+--- Group 0 ---
+Earliest candidate start: 2026-09-17T23:15:00.000Z
+Earliest candidate price: 0.598
+First confirmation rule: 2h
+First confirmation time: 2026-09-18T03:14:59.999Z
+Confirmation window: 2026-09-18T01:00:00.000Z -> 2026-09-18T03:00:00.000Z
+Confirmation return: 11.62%
+Full group span: 2026-09-17T23:15:00.000Z -> 2026-09-18T03:44:59.999Z
+Rules in group: 4h, 2h
+Candidate count: 5
+--- Group 1 ---
+Earliest candidate start: 2026-10-11T13:15:00.000Z
+Earliest candidate price: 0.8692
+First confirmation rule: 2h
+First confirmation time: 2026-10-11T15:29:59.999Z
+Confirmation window: 2026-10-11T13:15:00.000Z -> 2026-10-11T15:15:00.000Z
+Confirmation return: 10.10%
+Full group span: 2026-10-11T13:15:00.000Z -> 2026-10-11T15:29:59.999Z
+Rules in group: 2h
+Candidate count: 1
+====================================
+DRY RUN COMPLETE - NO DATABASE WRITES
+====================================
+
